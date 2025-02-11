@@ -160,10 +160,11 @@
 
 
             <ul class="imageListsWidget imgs-gallery "><li class="js_image_gallary">
-                    <figure class="effect-sadie"><img id="image1" class="lazyload    " data-src="//images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" width="" height=""><figcaption class="text-center"><h2></h2>
+                <div id="hoverElement1"></div> <figure class="effect-sadie"><img id="image1" class="lazyload    " data-src="//images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" width="" height=""><figcaption class="text-center"><h2></h2>
                                                                                                                                                             <p></p><h2>Bizness</h2>
                                                                                                             </figcaption></figure></li>
                                                                                                 <li class="js_image_gallary">
+                                                                                                                                                                                
                     <figure class="effect-sadie"><img id="image2" class="lazyload    " data-src="//images.pexels.com/photos/2079169/pexels-photo-2079169.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" width="" height=""><figcaption class="text-center"><h2></h2>
                                                                                                                                                             <p></p><h2>Born in da Ghetto</h2>
                                                                                                             </figcaption></figure></li>
@@ -310,7 +311,7 @@ $('.dropdown').find('a').each(function() {
     <source src="youraudiofile.ogg" type='audio/ogg; codecs="vorbis"'> <!--In case mp3 is not supported-->
  </audio>
  <script>
- var hoverArea = document.getElementById('image2');
+ var hoverArea = document.getElementById('hoverElement1');
  var audio = document.getElementById('audio');
  hoverArea.onmouseover= function(){
      audio.play();
