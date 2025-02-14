@@ -943,7 +943,7 @@ body {
 	overflow: hidden;
 }
 .wb-page a {
-	color: #ffffff;
+	color: #000;
 	text-decoration: none;
 }
 .wb-page a:hover, .wb-page a:focus {
