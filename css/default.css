@@ -924,9 +924,9 @@ list-style: none;
 
 /*============== Body ==============*/
 body {
-	background: #000000;
+	background: #fff;
 	font: 16px 'Montserrat', sans-serif;
-	color: #ffffff;
+	color: #000;
 	line-height: 27px;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -6859,7 +6859,7 @@ footer.footer-widgets [class*="footer-social-style"] span.fa {
 }
 footer.footer-widgets .footer-button{
 	background: transparent;
-	color: #666;
+	color: #666666;
 	border: 1px solid #666;
 	border-radius: 1000px;
 	font-size: 11px;
