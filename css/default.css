@@ -943,7 +943,7 @@ body {
 	overflow: hidden;
 }
 .wb-page a {
-	color: #ffffff;
+	color: #000;
 	text-decoration: none;
 }
 .wb-page a:hover, .wb-page a:focus {
@@ -2336,8 +2336,6 @@ section.heroSlider .heroHeading p {
 .widget-section[class*="widget-section-"] h4,
 .widget-section[class*="widget-section-"] h5,
 .widget-section[class*="widget-section-"] h6 {
-    color: white;
-}
   font-family: 'Raleway', sans-serif;
   line-height: 1em;
   font-weight: 500;
