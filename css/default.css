@@ -924,9 +924,9 @@ list-style: none;
 
 /*============== Body ==============*/
 body {
-	background: #ffffff;
+	background: #fff;
 	font: 16px 'Montserrat', sans-serif;
-	color: #000000;
+	color: #000;
 	line-height: 27px;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -943,7 +943,7 @@ body {
 	overflow: hidden;
 }
 .wb-page a {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 .wb-page a:hover, .wb-page a:focus {
